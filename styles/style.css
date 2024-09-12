@@ -87,7 +87,7 @@
 }
 
 .cover span + span {
-  line-height: 1.2;
+  line-height: 1.2em;
 }
 
 .cover__title {
@@ -96,7 +96,7 @@
   padding-top: 116px;
   font-weight: 700;
   font-size: 100px;
-  line-height: 1.25;
+  line-height: 1.25em;
   letter-spacing: 30px;
   text-transform: uppercase;
 }
@@ -135,7 +135,7 @@
   display: block;
   font-weight: 400;
   font-size: 22px;
-  line-height: 28px;
+  line-height: 1.2em;
   text-transform: uppercase;
 }
 
@@ -164,7 +164,7 @@
   font-weight: 700;
   font-size: 40px;
   font-style: normal;
-  line-height: 47px;
+  line-height: 1.2em;
   text-transform: uppercase;
 }
 
@@ -189,7 +189,7 @@
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
-  line-height: 23px;
+  line-height: 1em;
   text-underline-offset: 4px;
   text-transform: lowercase;
 }
@@ -214,7 +214,6 @@
   font-weight: 700;
   font-size: 22px;
   font-style: normal;
-  line-height: 26px;
   text-decoration-line: underline;
   text-transform: uppercase;
 }
@@ -225,7 +224,6 @@
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
-  line-height: 24px;
 }
 
 .card_type_film {
@@ -257,9 +255,9 @@
   display: grid;
   grid-template-columns: 240px 2fr;
   grid-template-rows: 240px 2fr;
-  row-gap: 5px;
+  row-gap: 8px;
   column-gap: 74px;
-  padding: 149px 24px 23px 69px
+  padding: 149px 24px 23px 69px;
 }
 
 .about__logo {
@@ -278,6 +276,7 @@
 .about__title {
   display: flex;
   align-items: center;
+  padding-top: 9px;
   font-weight: 700;
   font-size: 40px;
   font-style: normal;
@@ -292,7 +291,6 @@
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
-  line-height: 24px;
 }
 
 .about__text span {
